@@ -1,8 +1,3 @@
-'''
-Created on Mar 14, 2018
-
-@author: Jim
-'''
 def firstDuplicate(a):
     l = zip(a,range(len(a)))
     di = list_to_dict(l)
