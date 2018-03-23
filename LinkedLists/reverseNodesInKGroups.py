@@ -1,8 +1,3 @@
-'''
-Created on Mar 14, 2018
-
-@author: Jim
-'''
 # Definition for singly-linked list:
 # class ListNode(object):
 #   def __init__(self, x):
