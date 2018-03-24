@@ -8,7 +8,7 @@
 #          ['0', '1', '1', '1', '1'],
 #          ['0', '0', '0', '0', '1'],
 #          ['1', '0', '0', '1', '1']]
-#the output should be
+#the output should be 
 #countClouds(skyMap) = 2;
 
 #For
@@ -43,8 +43,8 @@ def countClouds(skyMap):
     for i in range(len(skyMap)):
         for j in range(len(skyMap[0])):
             if skyMap[i][j] == '1':
-                modifyClouds(skyMap,i,j)
                 n+=1
+                modifyClouds(skyMap,i,j)
     return n
                 
 def modifyClouds(M,k,l):
