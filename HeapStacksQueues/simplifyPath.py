@@ -16,7 +16,7 @@
 # * /./ means "move to the current directory" and can be replaced with a single /;
 # * /x/../ means "move into directory x and then return back to the parent directory", so it can replaced with a single /;
 # * // means "move to the current directory" and can be replaced with a single /.
-
+ 
 # Input/Output
 
 # [execution time limit] 4 seconds (py)
@@ -26,7 +26,7 @@
 # A line containing a path presented in Unix style format. All directories in the path are guaranteed to consist only of English letters.
 
 # Guaranteed constraints:
-# 1 ≤ path.length ≤ 5 · 104.
+# 1 ≤ path.length ≤ 5 * (10**4).
 
 # [output] string
 
