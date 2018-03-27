@@ -30,7 +30,7 @@
 
 #Guaranteed constraints:
 #1 ≤ coins.length ≤ 20,
-#1 ≤ coins[i] ≤ 104.
+#1 ≤ coins[i] ≤ 10**4.
 
 #[input] array.integer quantity
 
