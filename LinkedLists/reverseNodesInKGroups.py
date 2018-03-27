@@ -21,8 +21,8 @@
 #A singly linked list of integers.
 
 #Guaranteed constraints:
-#1 ≤ list size ≤ 104,
-#-109 ≤ element value ≤ 109.
+#1 ≤ list size ≤ 10**4,
+#-10**9 ≤ element value ≤ 10**9.
 
 #[input] integer k
 
