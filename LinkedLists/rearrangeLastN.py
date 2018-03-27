@@ -38,28 +38,23 @@
 #     self.value = x
 #     self.next = None
 #
+
 def rearrangeLastN(l, n):
-    if l==None:
-        return None
-    if n==0:
-        return l
-    if l.next==None:
+    if l==None or l.next==None or n==0:
         return l
     
     r,s=l.next,l.next
     i,D=1,{}
     
     while r:
-        D[0]=l
-        D[i]=r
+        D[0],D[i]=l,r
         r=r.next
         i=i+1
     
     if i==n:
         return l
-        
-    D[i-n-1].next=None
-    D[i-1].next=l
+    
+    D[i-n-1].next,D[i-1].next=None,l
     
     return D[i-n]
  
