@@ -37,8 +37,7 @@ def areFollowingPatterns(strings, patterns):
             shash[strings[i]]=shash[strings[i]]+[i]
         else:
             shash[strings[i]]=[i]
-            
-
+    
     for j in range(len(patterns)):
         if patterns[j] in phash:
             phash[patterns[j]]=phash[patterns[j]]+[j]
