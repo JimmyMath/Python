@@ -45,8 +45,7 @@
 
 
 def groupingDishes(dishes):
-    keys=[]
-    hash={}
+    keys,hash=[],{}
     for row in dishes:
         for i in range(1,len(row)):
             keys=keys+[row[i]]
