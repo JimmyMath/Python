@@ -45,7 +45,7 @@
 
 
 def groupingDishes(dishes):
-    keys,hash=[],{}
+    keys,D=[],{}
     for row in dishes:
         for i in range(1,len(row)):
             keys=keys+[row[i]]
@@ -55,7 +55,7 @@ def groupingDishes(dishes):
         for row in dishes:
             if k in row[1:]:
                 values=values+[row[0]]
-        hash[k]=sorted(values)
+        D[k]=sorted(values)
 
-    return [[k]+hash[k] for k in keys if len(hash[k]) > 1]
+    return [[k]+D[k] for k in keys if len(hash[k]) > 1]
     
