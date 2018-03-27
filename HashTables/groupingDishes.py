@@ -49,7 +49,9 @@ def groupingDishes(dishes):
     for row in dishes:
         for i in range(1,len(row)):
             keys=keys+[row[i]]
+    
     keys=sorted([x for i, x in enumerate(keys) if x not in keys[:i]])
+    
     for k in keys:
         values=[]
         for row in dishes:
