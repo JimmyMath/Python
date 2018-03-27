@@ -38,9 +38,9 @@
 
 #Guaranteed constraints:
 #quantity.length = coins.length,
-#1 ≤ quantity[i] ≤ 105.
+#1 ≤ quantity[i] ≤ 10**5.
 
-#It is guaranteed that (quantity[0] + 1) * (quantity[1] + 1) * ... * (quantity[quantity.length - 1] + 1) <= 106.
+#It is guaranteed that (quantity[0] + 1) * (quantity[1] + 1) * ... * (quantity[quantity.length - 1] + 1) <= 10**6.
 
 #[output] integer
 
