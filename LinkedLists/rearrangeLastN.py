@@ -43,7 +43,7 @@ def rearrangeLastN(l, n):
     if l==None or l.next==None or n==0:
         return l
     
-    r,s=l.next,l.next
+    r=l.next
     i,D=1,{}
     
     while r:
