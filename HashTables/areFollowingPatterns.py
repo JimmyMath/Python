@@ -15,7 +15,7 @@
 #An array of strings, each containing only lowercase English letters.
 
 #Guaranteed constraints:
-#1 ≤ strings.length ≤ 105,
+#1 ≤ strings.length ≤ 10**5,
 #1 ≤ strings[i].length ≤ 10.
 
 #[input] array.string patterns
