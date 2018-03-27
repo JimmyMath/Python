@@ -15,7 +15,7 @@
 
 #Guaranteed constraints:
 #0 ≤ nums.length ≤ 15,
-#-(231 - 1) ≤ nums[i] ≤ 231 - 1.
+#-(2**31 - 1) ≤ nums[i] ≤ 2**31 - 1.
 
 #[output] array.string
 
