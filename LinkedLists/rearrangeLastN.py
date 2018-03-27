@@ -17,7 +17,7 @@
 #A singly linked list of integers.
 
 #Guaranteed constraints:
-#0 ≤ list size ≤ 105,
+#0 ≤ list size ≤ 10**5,
 #-1000 ≤ element value ≤ 1000.
 
 #[input] integer n
