@@ -11,7 +11,7 @@
 
 #For a = [2, 4, 3, 5, 1], the output should be
 #firstDuplicate(a) = -1.
-
+ 
 #Input/Output
 
 #[execution time limit] 4 seconds (py)
@@ -19,7 +19,7 @@
 #[input] array.integer a
 
 #Guaranteed constraints:
-#1 ≤ a.length ≤ 105,
+#1 ≤ a.length ≤ 10**5,
 #1 ≤ a[i] ≤ a.length.
 
 #[output] integer
