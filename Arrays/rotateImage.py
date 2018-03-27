@@ -25,7 +25,7 @@
 #Guaranteed constraints:
 #1 ≤ a.length ≤ 100,
 #a[i].length = a.length,
-#1 ≤ a[i][j] ≤ 104.
+#1 ≤ a[i][j] ≤ 10**4.
 
 #[output] array.array.integer
 
