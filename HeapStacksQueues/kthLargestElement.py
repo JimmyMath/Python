@@ -15,8 +15,8 @@
 #[input] array.integer nums
 
 #Guaranteed constraints:
-#1 ≤ nums.length ≤ 105,
-#-105 ≤ nums[i] ≤ 105.
+#1 ≤ nums.length ≤ 10**5,
+#-10**5 ≤ nums[i] ≤ 10**5.
 
 #[input] integer k
 
