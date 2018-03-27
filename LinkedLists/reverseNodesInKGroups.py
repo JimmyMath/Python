@@ -42,8 +42,8 @@
 #     self.value = x
 #     self.next = None
 #
+
 def reverseNodesInKGroups(l, k):
-    
     if k == 1:
         return l
     
