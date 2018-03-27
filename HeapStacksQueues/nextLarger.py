@@ -18,8 +18,8 @@
 #An array composed of distinct elements.
 
 #Guaranteed constraints:
-#1 ≤ a.length ≤ 104,
-#0 ≤ a[i] ≤ 105.
+#1 ≤ a.length ≤ 10**4,
+#0 ≤ a[i] ≤ 10**5.
 
 #[output] array.integer
 
