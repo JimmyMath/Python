@@ -62,7 +62,7 @@ def sudoku2(grid):
         sub = []
         for a, b in itertools.product([-1,0,1], [-1,0,1]):
             sub.append(grid[h+a][k+b])
-        c=Counter(sub)
+        c = Counter(sub)
         for w in sub:
             if c[w] > 1 and w != '.':
                 return False
