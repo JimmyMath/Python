@@ -25,5 +25,5 @@
 #[output] boolean
 
 def containsDuplicates(a):
-    return len(a)!=len(set(a))
+    return len(a) != len(set(a))
     
