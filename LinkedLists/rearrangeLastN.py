@@ -40,21 +40,16 @@
 #
 
 def rearrangeLastN(l, n):
-    if l==None or l.next==None or n==0:
+    if l == None or l.next == None or n == 0:
         return l
-    
-    r=l.next
-    i,D=1,{}
-    
+    r = l.next
+    i, D=1, {}
     while r:
-        D[0],D[i]=l,r
-        r=r.next
-        i=i+1
-    
-    if i==n:
+        D[0], D[i] = l, r
+        r = r.next
+        i = i+1
+    if i == n:
         return l
-    
-    D[i-n-1].next,D[i-1].next=None,l
-    
+    D[i-n-1].next, D[i-1].next = None,l
     return D[i-n]
  
