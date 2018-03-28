@@ -52,7 +52,7 @@ import numpy as np
 from collections import Counter
 import itertools
 def sudoku2(grid):
-    grid=np.array(grid)
+    grid = np.array(grid)
     for i in range(0,9):
         c, d = Counter(grid[i,:]), Counter(grid[:,i])
         for z, w in itertools.product(grid[i,:], grid[:,i]):
