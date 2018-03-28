@@ -49,15 +49,14 @@ def decodeString(s):
     a = a[::-1]
     front.pop()
     while front[-1].isdigit():
-        n+=front[-1]
-        if len(front)==1:
+        n += front[-1]
+        if len(front) == 1:
             break
         else:
             front.pop()
-    n=int(n[::-1])
-    
+    n = int(n[::-1])
     if front[-1].isdigit():
-        return a*n+decodeString(s[i+1:])
+        return a*n + decodeString(s[i+1:])
     else:
-        return decodeString("".join(front)+a*n+s[i+1:])
+        return decodeString("".join(front) + a*n + s[i+1:])
         
