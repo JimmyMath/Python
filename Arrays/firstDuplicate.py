@@ -35,7 +35,7 @@ def firstDuplicate(a):
             D[a[i]] = [i]
     minind = len(a)
     for x in D.keys():
-        if len(D[x])>1 and D[x][1]<minind:
+        if len(D[x]) > 1 and D[x][1] < minind:
             minind, minele = D[x][1], x
     if minind == len(a):
         return -1
