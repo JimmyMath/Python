@@ -27,20 +27,16 @@
 #The element in a that occurs in the array more than once and has the minimal index for its second occurrence. If there are no such elements, return -1.
 
 def firstDuplicate(a):
-    l = zip(a,range(len(a)))
-    di = list_to_dict(l)
-    ll = [(v[1],k) for k, v in di.iteritems() if len(v) > 1]
-    if not ll:
+    D = {}
+    for i in range(len(a)):
+        if a[i] in D:
+            D[a[i]] += [i]
+        else:
+            D[a[i]] = [i]
+    minind = len(a)
+    for x in D.keys():
+        if len(D[x])>1 and D[x][1]<minind:
+            minind, minele = D[x][1], x
+    if minind == len(a):
         return -1
-    else:
-        (x,y) = min(ll)
-        return y
-
-def list_to_dict(li):
-     dct = {}
-     for (item,v) in li:
-         if dct.has_key(item):
-                 dct[item] = dct[item] + [v]
-         else:
-             dct[item] = [v]
-     return dct
+    return minele
