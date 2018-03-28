@@ -37,8 +37,5 @@ def firstNotRepeatingCharacter(s):
     for word in list(s):
         if c[word] == 1:
             return word       
-        else:
-            last += 1
-    if last == len(list(s)):
-        return '_'
+    return '_'
             
