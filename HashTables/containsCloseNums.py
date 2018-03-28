@@ -37,7 +37,6 @@ def containsCloseNums(nums, k):
             D[nums[i]] = D[nums[i]] + [i]
         else:
             D[nums[i]] = [i] 
- 
     for v in D.values():
         if len(v) > 1:
             for x in v:
