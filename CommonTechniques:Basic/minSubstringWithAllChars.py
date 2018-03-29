@@ -28,7 +28,6 @@
 #[output] string
 
 def minSubstringWithAllChars(s, t):
-    if t == "":return ""
     S = list(s)
     T, index, m, i = set(list(t)), [], len(S)+1, 0
     for x in range(len(S)):
@@ -46,4 +45,4 @@ def minSubstringWithAllChars(s, t):
                     i = j - k + 1
                     break
         i = j + 1
-    return a
+    return a if t else ""
