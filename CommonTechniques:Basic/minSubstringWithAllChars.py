@@ -30,17 +30,21 @@
 def minSubstringWithAllChars(s, t):
     if t == "":return ""
     S = list(s)
-    T, m, i = set(list(t)), len(S)+1, 0
-    while i < len(S):
-        for j in range(i+1, len(S)+1):
-            if T <= set(S[i:j]):
-                for k in range(1, j-i+1):
-                    if T <= set(S[j-k:j]):
+    T, index, m = set(list(t)), [], len(S)+1
+    for x in range(len(S)):
+        if S[x] in T:
+            index.append(x)
+    i = 0        
+    while i < len(index):
+        for j in range(i, len(index)):
+            if T <= set(S[index[i]:index[j]+1]):
+                for k in range(j-i+1):
+                    if T <= set(S[index[j-k]:index[j]+1]):
                         break
-                if m > k:
-                    m = k
-                    a = "".join(S[j-k:j])
-                    i = j-k+1
+                if m > index[j]-index[j-k]+1:
+                    m = index[j]-index[j-k]+1
+                    a = "".join(S[index[j-k]:index[j]+1])
+                    i = j - k + 1
                     break
-        i = j
+        i = j + 1
     return a
