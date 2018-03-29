@@ -30,11 +30,10 @@
 def minSubstringWithAllChars(s, t):
     if t == "":return ""
     S = list(s)
-    T, index, m = set(list(t)), [], len(S)+1
+    T, index, m, i = set(list(t)), [], len(S)+1, 0
     for x in range(len(S)):
         if S[x] in T:
-            index.append(x)
-    i = 0        
+            index.append(x)      
     while i < len(index):
         for j in range(i, len(index)):
             if T <= set(S[index[i]:index[j]+1]):
