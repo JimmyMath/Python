@@ -18,9 +18,7 @@
 
 #[execution time limit] 4 seconds (py)
 
-#[input] array.arra  return 1
-        return 0
-    else:y.char matrix
+#[input] array.array.char matrix
 
 #Guaranteed constraints:
 #0 ≤ matrix.length ≤ 100,
