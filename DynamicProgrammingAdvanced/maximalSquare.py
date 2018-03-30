@@ -37,9 +37,9 @@ def maximalSquare(matrix):
         return 0
     S = [[0 for j in range(l)] for i in range(r)]
     for i in range(r):
-        S[i][0]=int(matrix[i][0])
-    for j in range(l):
-        S[0][j]=int(matrix[0][j])
+        for j in range(l):
+            S[i][0]=int(matrix[i][0])
+            S[0][j]=int(matrix[0][j])
     for i in range(1,r):
         for j in range(1, l):
             if matrix[i][j] == '1':
