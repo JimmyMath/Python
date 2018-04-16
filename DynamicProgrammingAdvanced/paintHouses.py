@@ -28,7 +28,7 @@
 
 def paintHouses(cost):
     a ,b, c = 0, 0, 0 
-    for i in range(len(cost)-1,-1,-1):
+    for i in range(len(cost)):
         a, b ,c = min(b,c)+cost[i][0], min(a,c)+cost[i][1], min(a,b)+cost[i][2]
     return min(a,b,c)
     
