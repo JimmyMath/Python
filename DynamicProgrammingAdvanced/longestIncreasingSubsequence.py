@@ -21,7 +21,7 @@
 
 #1 ≤ sequence.length ≤ 1000,
 
-#0 ≤ sequence[i] ≤ 106. 
+#0 ≤ sequence[i] ≤ 10**6. 
         else:
             s += [(i,1)]
     return max([s[i][1] for i in range(k)])
