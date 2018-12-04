@@ -1,3 +1,3 @@
 # PythonCode
 
-Codefights Interview Practice in Python2
+Codefights Exercises coded by Python2
