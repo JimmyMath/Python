@@ -18,8 +18,8 @@
 #          ['0', '0', '1', '0', '1'],
 #          ['0', '0', '1', '1', '0'],
 #          ['1', '0', '1', '1', '0']]
-#the output should be
-#countClouds(skyMap) = 5.
+
+#the output should be countClouds(skyMap) = 5.
 
 #Input/Output
 
