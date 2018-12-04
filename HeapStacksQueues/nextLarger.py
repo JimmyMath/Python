@@ -4,8 +4,7 @@
 
 #Example
 
-#For a = [6, 7, 3, 8], the output should be
-#nextLarger(a) = [7, 8, 8, -1].
+#For a = [6, 7, 3, 8], the output should be nextLarger(a) = [7, 8, 8, -1].
 
 #In this array, the next larger element for 6 is 7, for 7 is 8, for 3 is 8 (7 is not a valid option since elements from a can only be compared to elements to their right), and for 8 there is no such element, so we put -1 in the last cell.
 
