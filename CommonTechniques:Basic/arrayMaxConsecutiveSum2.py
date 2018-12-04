@@ -2,8 +2,7 @@
 
 #Example
 
-#For inputArray = [-2, 2, 5, -11, 6], the output should be
-#arrayMaxConsecutiveSum2(inputArray) = 7.
+#For inputArray = [-2, 2, 5, -11, 6], the output should be arrayMaxConsecutiveSum2(inputArray) = 7.
 
 #The contiguous subarray that gives the maximum possible sum is [2, 5], with a sum of 7.
 
