@@ -9,8 +9,7 @@
 # .. is used to mark the parent directory; if the current directory is root already, .. does nothing.
 # Example
 
-# For path = "/home/a/./x/../b//c/", the output should be
-# simplifyPath(path) = "/home/a/b/c".
+# For path = "/home/a/./x/../b//c/", the output should be simplifyPath(path) = "/home/a/b/c".
 
 # Here is how this path was simplified:
 # * /./ means "move to the current directory" and can be replaced with a single /;
