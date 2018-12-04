@@ -4,8 +4,7 @@
 
 #Example
 
-#For s = "abacabad", the output should be
-#firstNotRepeatingCharacter(s) = 'c'.
+#For s = "abacabad", the output should be firstNotRepeatingCharacter(s) = 'c'.
 
 #There are 2 non-repeating characters in the string: 'c' and 'd'. Return c since it appears in the string first.
 
