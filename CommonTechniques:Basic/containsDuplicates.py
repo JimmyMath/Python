@@ -2,13 +2,11 @@
 
 #Example
 
-#For a = [1, 2, 3, 1], the output should be
-#containsDuplicates(a) = true.
+#For a = [1, 2, 3, 1], the output should be containsDuplicates(a) = true.
 
 #There are two 1s in the given array.
 
-#For a = [3, 1], the output should be
-#containsDuplicates(a) = false.
+#For a = [3, 1], the output should be containsDuplicates(a) = false.
 
 #The given array contains no duplicates.
 
