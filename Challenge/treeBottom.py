@@ -3,7 +3,7 @@
 #value of the node;
 #left subtree;
 #right subtree.
-#So, a tree can be written as (value left_subtree right_subtree). It is guaranteed that 1 ≤ value ≤ 109. If a node doesn't exist then it is represented as an empty set: (). For example, here is a representation of a tree in the given picture:
+#So, a tree can be written as (value left_subtree right_subtree). It is guaranteed that 1 ≤ value ≤ 10**9. If a node doesn't exist then it is represented as an empty set: (). For example, here is a representation of a tree in the given picture:
 
 #(2 (7 (2 () ()) (6 (5 () ()) (11 () ()))) (5 () (9 (4 () ()) ())))
 
