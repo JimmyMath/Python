@@ -6,17 +6,11 @@
 
 #Example
 
-#For s = "4[ab]", the output should be
+#For s = "4[ab]", the output should be decodeString(s) = "abababab";
 
-#decodeString(s) = "abababab";
+#For s = "2[b3[a]]", the output should be decodeString(s) = "baaabaaa";
 
-#For s = "2[b3[a]]", the output should be
-
-#decodeString(s) = "baaabaaa";
-
-#For s = "z1[y]zzz2[abc]", the output should be
-
-#decodeString(s) = "zyzzzabcabc".
+#For s = "z1[y]zzz2[abc]", the output should be decodeString(s) = "zyzzzabcabc".
 
 #Input/Output
 
