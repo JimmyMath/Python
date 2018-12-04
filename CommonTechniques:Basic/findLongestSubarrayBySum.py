@@ -4,8 +4,7 @@
 
 #Example
 
-#For s = 12 and arr = [1, 2, 3, 7, 5], the output should be
-#findLongestSubarrayBySum(s, arr) = [2, 4].
+#For s = 12 and arr = [1, 2, 3, 7, 5], the output should be findLongestSubarrayBySum(s, arr) = [2, 4].
 
 #The sum of elements from the 2nd position to the 4th position (1-based) is equal to 12: 2 + 3 + 7.
 
