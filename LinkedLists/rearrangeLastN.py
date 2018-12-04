@@ -4,8 +4,7 @@
 
 #Example
 
-#For l = [1, 2, 3, 4, 5] and n = 3, the output should be
-#rearrangeLastN(l, n) = [3, 4, 5, 1, 2];
+#For l = [1, 2, 3, 4, 5] and n = 3, the output should be rearrangeLastN(l, n) = [3, 4, 5, 1, 2];
 #For l = [1, 2, 3, 4, 5, 6, 7] and n = 1, the output should be
 #rearrangeLastN(l, n) = [7, 1, 2, 3, 4, 5, 6].
 #Input/Output
