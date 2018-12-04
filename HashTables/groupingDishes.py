@@ -35,6 +35,7 @@
 #An array of dishes. dishes[i] for each valid i contains information about the ith dish: the first element of dishes[i] is the name of the dish and the following elements are the ingredients of that dish. Both the dish name and the ingredient names consist of English letters and spaces. It is guaranteed that all dish names are different. It is also guaranteed that ingredient names for one dish are also pairwise different.
 
 #Guaranteed constraints:
+
 #1 ≤ dishes.length ≤ 500,
 #2 ≤ dishes[i].length ≤ 10,
 #1 ≤ dishes[i][j].length ≤ 50.
