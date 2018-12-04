@@ -3,9 +3,7 @@
 
 #Example
 
-#For sequence = [1, 231, 2, 4, 89, 32, 12, 234, 33, 90, 34, 100], the output should be
-
-#longestIncreasingSubsequence(sequence) = 7.
+#For sequence = [1, 231, 2, 4, 89, 32, 12, 234, 33, 90, 34, 100], the output should be longestIncreasingSubsequence(sequence) = 7.
 
 #The LIS itself is [1, 2, 4, 32, 33, 34, 100].
 
