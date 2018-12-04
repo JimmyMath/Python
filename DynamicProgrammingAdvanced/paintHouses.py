@@ -4,8 +4,7 @@
 
 #Example
 
-#For cost = [[1, 3, 4], [2, 3, 3], [3, 1, 4]], the output should be
-#paintHouses(cost) = 5.
+#For cost = [[1, 3, 4], [2, 3, 3], [3, 1, 4]], the output should be paintHouses(cost) = 5.
 
 #You can paint the first Painted Lady red for a cost of 1, the second one green for a cost of 3, and the third one blue for a cost of 1, for a total cost of 5.
 
