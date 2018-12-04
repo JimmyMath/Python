@@ -2,8 +2,7 @@
 
 #Example
 
-#For nums = [3, 0, -2, 6, -3, 2] and queries = [[0, 2], [2, 5], [0, 5]], the output should be
-#sumInRange(nums, queries) = 10.
+#For nums = [3, 0, -2, 6, -3, 2] and queries = [[0, 2], [2, 5], [0, 5]], the output should be sumInRange(nums, queries) = 10.
 
 #The array of results for queries is [1, 3, 6], so the answer is 1 + 3 + 6 = 10.
 
