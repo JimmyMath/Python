@@ -21,6 +21,7 @@
 #[input] array.array.char matrix
 
 #Guaranteed constraints:
+
 #0 ≤ matrix.length ≤ 100,
 #1 ≤ matrix[i].length ≤ 100,
 #0 ≤ matrix[i][j] ≤ 1.
