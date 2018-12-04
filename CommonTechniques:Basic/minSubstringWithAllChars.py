@@ -4,8 +4,7 @@
 
 #Example
 
-#For s = "adobecodebanc" and t = "abc", the output should be
-#minSubstringWithAllChars(s, t) = "banc".
+#For s = "adobecodebanc" and t = "abc", the output should be minSubstringWithAllChars(s, t) = "banc".
 
 #Input/Output
 
