@@ -6,8 +6,7 @@
 
 #Example
 
-#For nums = [1, 2, 3, 4] and m = 12, the output should be
-#productExceptSelf(nums, m) = 2.
+#For nums = [1, 2, 3, 4] and m = 12, the output should be productExceptSelf(nums, m) = 2.
 
 #The array of the values of f is: [24, 12, 8, 6]. If we take all the elements modulo m, we get:
 #[0, 0, 8, 6]. The sum of those values is 8 + 6 = 14, making the answer 14 % 12 = 2.
