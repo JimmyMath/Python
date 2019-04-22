@@ -1,3 +1,3 @@
 # PythonCode
 
-Codefights Exercises coded by Python2
+Codefights Exercises coded by Python3
